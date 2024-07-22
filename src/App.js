@@ -8,6 +8,7 @@ import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from "./context/ThemeContext";
 import Tada from "react-reveal/Tada";
 import Mobilenav from "./components/mobilenav/Mobilenav";
+import AnimatedCursor from "react-animated-cursor"
 function App() {
   const [theme] = useTheme();
   return (
@@ -34,6 +35,9 @@ function App() {
      smooth
      color="#f29f67"
       style={{backgroundColor:'#1e1e2c',borderRadius:'80px'}} />
+      <AnimatedCursor
+      color="153, 50, 204"
+      />
    </>
   );
 }
