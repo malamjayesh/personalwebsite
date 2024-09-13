@@ -1,62 +1,84 @@
-.project{
+.project {
     margin: 50px 0px;
-    margin-left: 100px;   
+    margin-left: 100px;
 }
-.project hr{
+
+.project hr {
     color: #138781;
     width: 400px;
     margin: 10px auto;
 }
-.project h2{
-    font-weight:bold;
+
+.project h2 {
+    font-weight: bold;
     color: #138781;
 }
-#ads{
+
+#ads {
     margin: 30px 0px 30px 0px;
 }
-#ads .card-notify-badge{
+
+#ads .card-notify-badge {
     position: absolute;
     left: -10px;
-    top:-20px;
+    top: -20px;
     background-color: #f29f67;
     text-align: center;
     border-radius: 30px 30px 30px 30px;
     color: black;
-    padding:  5px 10px;
+    padding: 5px 10px;
     font-size: 14px;
 }
-.project .card img{
+
+.project .card img {
     height: 350px;
     width: 100%;
 }
-.card-detail-badge{
-    text-align: center;
-    background-color:#138781;
+
+.card-detail-badge {
+    /* text-align: center;
+    background-color: #138781;
     border-radius: 30px;
     color: white;
     padding: 5px 10px;
-    font-size: 20px;
+    font-size: 20px; */
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #138781;
+    border-radius: 3px;
+    border-radius: 30px;
+    color: white;
+
 }
+
 .card-image-overly {
     font-size: 15px;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.card-image-overly span{
+
+.card-image-overly span {
     display: inline-block;
     margin-left: 25px;
 }
-.project.card:hover{
+
+.project.card:hover {
     background-color: #fff;
     border-radius: 4px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     transition: all 1s ease;
 }
-.ad-btn{
+
+.ad-btn {
     text-transform: uppercase;
     width: 150px;
     height: 40px;
     display: block;
     text-align: center;
-    background-color:#138781;
+    background-color: #138781;
     color: white;
     border-radius: 80px;
     font-size: 16px;
@@ -66,7 +88,8 @@
     overflow: hidden;
     position: relative;
 }
-.ad-btn:hover{
+
+.ad-btn:hover {
     background-color: #fff;
     color: #138781;
     background: transparent;
@@ -78,17 +101,22 @@
 
 @media (max-width: 600px) {
     .project {
-      margin: 0;
-      padding: 0;
-      margin-top: 50px;
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
     }
+
     .project hr {
-      width: 280px;
+        width: 280px;
     }
+
     .project .card {
-      margin-top: 30px;
+        margin-top: 30px;
     }
-    .card-detail-badge{
-        
+
+    .card-detail-badge {
+        font-size: 15px;
+        /* Adjust the size for mobile view */
+        padding: 5px 10px;
     }
-  }
+}

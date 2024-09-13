@@ -1,39 +1,46 @@
-.contact{
-    margin-left: 115px;
-    margin-bottom: 60px;
-    padding-top: 10px;
-    margin-right: 10px;
+.contact {
+  margin-left: 115px;
+  margin-bottom: 60px;
+  padding-top: 10px;
+  margin-right: 10px;
 }
-.card0{
-    box-shadow: 0px 4px 8px 0px #757575;
-    border-radius: 0px;
+
+.card0 {
+  box-shadow: 0px 4px 8px 0px #757575;
+  border-radius: 0px;
 }
+
 .card1 .image {
-    padding: 30px;
-    margin-top: 30px;
-    height: 100%;
-    width: 100%;
-  }
-  .border-line {
-    border-right: 1px solid #e0e0e0;
-  }
-  .line {
-    height: 1px;
-    width: 45%;
-    background-color: #e0e0e0;
-    margin-top: 10px;
-  }
-  .or {
-    display: flex;
-    width: 10%;
-    font-weight: bold;
-  }
-  ::placeholder {
-    color: #bdbdbd;
-    opacity: 1;
-    font-weight: 300;
-  }
-  input,
+  padding: 30px;
+  margin-top: 30px;
+  height: 100%;
+  width: 100%;
+}
+
+.border-line {
+  border-right: 1px solid #e0e0e0;
+}
+
+.line {
+  height: 1px;
+  width: 45%;
+  background-color: #e0e0e0;
+  margin-top: 10px;
+}
+
+.or {
+  display: flex;
+  width: 10%;
+  font-weight: bold;
+}
+
+::placeholder {
+  color: #bdbdbd;
+  opacity: 1;
+  font-weight: 300;
+}
+
+input,
 textarea {
   padding: 10px 12px;
   border: 1px solid lightgray;
@@ -45,6 +52,7 @@ textarea {
   font-size: 1rem;
   letter-spacing: 1px;
 }
+
 input:focus,
 textarea:focus {
   box-shadow: none !important;
@@ -69,11 +77,22 @@ button:focus {
   background-color: #000;
   color: white;
 }
-.icon{
+
+.icon {
   margin-left: 110px;
 }
 
+/* adding css for the headding */
+.contact hr {
+  color: #138781;
+  width: 400px;
+  margin: 10px auto;
+}
 
+.contact h2 {
+  font-weight: bold;
+  color: #138781;
+}
 
 
 
@@ -83,6 +102,7 @@ button:focus {
     padding: 0;
     margin-top: 50px;
   }
+
   .contact .card2 {
     margin: 0;
   }

@@ -16,7 +16,7 @@ export const TechstackList = [
   },
   {
     _id: 2,
-    name: "CSS / SCSS",
+    name: "CSS",
     icon: BsFiletypeCss,
   },
   {
@@ -34,7 +34,7 @@ export const TechstackList = [
     name: "React JS",
     icon: SiReact,
   },
-  
+
   {
     _id: 6,
     name: "Tailwind ",
